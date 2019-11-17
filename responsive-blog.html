@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://static.pexels.com/photos/39811/pexels-photo-39811.jpeg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="">
+    <h1>Travels with Luna</h1>
+    <ul>
+      <li><a href="#">My Trips</a></li>
+      <li><a href="#">Upcoming Trips</a></li>
+      <li><a href="#">Travel Tips</a></li>
+      <li><a href="#">My Gear</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Califonia Dreamin'....</h2>
+    <p>California. Wow. You beautiful, weird, messy, inspiring, incorrigble soul I went to California for the first time June/July 2016, and I had the best time. I got to see my boyfriend (kisses), go to the beach, experience new restaurants, fell in love with the nicest mall I've ever seen (shallow, I know. Sue me). I can't wait to see more of this beautiful and unique state.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>SpartaCon 2015</h2>
+    <p>I LOVE conventions, but unfortunately I don't get to go to as many as I like. I'm a HUGE fan of a tv show called ''Spartacus", a story about the first fighter for freedom. It has everything: blood, intrigue, betrayal, you name it. And the gladiator fights! I remember thinking how I would love to see an actual gladiator battle. So I was surprised (and delighted) when I found that a group called The Red Serpents have created SpartaCon, a convention dedicated to the show. You can bet I immediately jumped on that bandwagon, and man, what a time I had. The cast (They are the nicest people. Not shallow at all). The battles! Such astounding creativity from the DC Stunt Coalition. Meeting fellow Spartacus fans that I am glad to call my friends. A wonderful time all around. I can't wait to experince it again someday. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>The Grand Canyon</h2>
+    <p>So.... for people to say that this is just a hole in the ground, they clearly don't know what they're talking about. The Grand Canyon is utter amazement. It is massive, intense, awe-inspiring. I admit I got shaky legs standing at the edge. But it wasn't too bad. It was incredibly beautiful. Overall, the trip was awesome. I got to see Sedona, and stopped at Cameron Navajo reservation and the trading post. The tour guide Wayne was funny and very knowledgeable, told us the history of the canyon, and even a ghost story. I will definitely be going back, especially Sedona.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
